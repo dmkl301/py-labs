@@ -43,7 +43,6 @@ class Company:
         return max(self.employees, key=lambda emp: emp.annual_salary())
 
 
-# --- Приклад використання ---
 emp1 = Employee("Олена", "Програміст", [1200, 1300, 1250, 1400])
 emp2 = Employee("Ігор", "Дизайнер", [1100, 1150, 1130, 1170])
 mgr1 = Manager("Світлана", "Менеджер проектів", [2000, 2100, 2050, 2150], "Розробка")
